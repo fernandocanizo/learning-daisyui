@@ -1,4 +1,5 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
+import daisyui from "daisyui";
 
 export default {
   content: [
@@ -8,7 +9,7 @@ export default {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
+    daisyui,
   ],
 } satisfies Config
 
