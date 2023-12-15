@@ -24,6 +24,9 @@ export default function Index() {
         <li>
           <NavLink to="/daisy/sidenav" className="link-primary link-hover">SideNav</NavLink>
         </li>
+        <li>
+          <NavLink to="/daisy/sidenav-working" className="link-primary link-hover">Working SideNav</NavLink>
+        </li>
       </ul>
 
       <h2 className="flex justify-center text-slate-900 text-xl tracking-tight font-bold mb-3 dark:text-slate-200">React DaisyUi</h2>
